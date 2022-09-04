@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+.clockcontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(11, 83, 11);
+  font-size: 5rem;
+}
+
+.clock {
+  border: 2px solid white;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  transition: all 1s ease-in-out;
+}
